@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ohrok.emergencyalarm.WelcomeActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요.\n위급상황알리미 어플은 \n위젯으로 실행되는 어플리케이션 입니다.\n초기 설정으로 위급상황 알림문자를 보낼 상대방 연락처를 설정해 주세요."
+        android:textSize="16dp"
+        android:layout_margin="24dp"/>
+
+    <Button
+        android:id="@+id/go_setting_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="설정하러가기"/>
+</LinearLayout>
